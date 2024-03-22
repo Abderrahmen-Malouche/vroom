@@ -1,10 +1,11 @@
 import React from 'react'
-import car_logo from "../Assets/logo.webp"
+import car_logo from "../../Assets/logo.png"
 import "./Navbar.css"
-import"../App.css"
+import"../../App.css"
 import { CiMenuBurger } from "react-icons/ci";
 import { RxCross1 } from "react-icons/rx";
 import { useState } from 'react';
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

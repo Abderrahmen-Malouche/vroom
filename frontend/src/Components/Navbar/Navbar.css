@@ -16,15 +16,19 @@
 }
 .logo{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     align-items: center;
     justify-content: center;
 }
 .logo img{
-    height:110px
+    height:110px;
 }
 .logo h2{
     font-size:22px;
+    color:rgb(190, 111, 36);
+    padding:0;
+    margin-top:-40px;
+    letter-spacing:4px;
 }
 ul{
     display:flex;
@@ -37,12 +41,12 @@ ul{
 }
 
 ul li:hover{
-    color:rgb(252, 184, 82);
+    color:rgb(190, 111, 36);
     cursor:pointer;
     transition: all .3s;
 }
 .active{
-    color:rgb(252, 184, 82);
+    color:rgb(190, 111, 36);
 }
 .buttons{
     display:flex;
@@ -56,18 +60,30 @@ ul li:hover{
     font-size:17px;
     border: none;
     padding:10px 20px;
-    font-weight: 600;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.5s linear;
 }
 .buttons .sign-in:hover{
-color:rgb(252, 184, 82);
-cursor:pointer
+color:rgb(190, 111, 36);
+cursor:pointer;
+background-color:rgb(190, 111, 36);
+color:white;
 }
 .buttons .register{
-    background-color:rgb(252, 184, 82);
+    background-color:rgb(190, 111, 36);
     border:none;
     font-size:17px;
     padding:10px 20px;
     border-radius: 5%;
+    font-weight:bold;
+    border-radius: 20px;
+    color:white;
+    transition: 0.5s linear;
+    cursor:pointer  
+}
+.buttons .register:hover{
+    color:black;
 }
 .burger_icon{
     display:none
@@ -80,7 +96,7 @@ cursor:pointer
 
     }
     .burger_icon:hover{
-        color:rgb(252, 184, 82);
+        color:rgb(190, 111, 36);
         font-weight:700;
         cursor: pointer;
         transition: all .3s;
@@ -110,7 +126,7 @@ cursor:pointer
 
     }
     .cross:hover{
-        color:rgb(252, 184, 82);
+        color:rgb(190, 111, 36);
         font-weight:700;
         cursor: pointer;
     }
