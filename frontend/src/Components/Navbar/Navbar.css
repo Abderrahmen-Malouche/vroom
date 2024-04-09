@@ -9,7 +9,7 @@
 .navbar-mobile{
     display:none;
 }
-@media (max-width:1072px) {
+@media (max-width:1100px) {
     .list{
         display:none;
     }
@@ -34,7 +34,7 @@ ul{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    gap:40px;
+    gap:20px;
     font-size:17px;
     list-style: none;
     font-weight: 600;
@@ -88,7 +88,7 @@ color:white;
 .burger_icon{
     display:none
 }
-@media (max-width:1072px) {
+@media (max-width:1100px) {
     .burger_icon{
         display:block;
         font-size:26px;

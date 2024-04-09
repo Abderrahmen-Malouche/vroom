@@ -1,0 +1,107 @@
+.footer{
+        padding-top:80px;
+}
+.footer .container {
+    display:grid;
+    grid-template-columns: repeat(auto-fit ,minmax(200px,1fr));
+    gap:40px;
+    padding:30px;
+    text-align: left;
+}
+.footer-element{
+    max-width:300px;
+}
+.footer-element h1{
+    font-size:25px;
+}
+.footer-element p{
+color:grey;
+font-size:18px;
+}
+.footer-element .phone-number{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+
+}
+.phone-number .phone{
+    font-size:30px;
+}
+.phone-number .phone:hover{
+    color:orange;
+    cursor:pointer;
+}
+.phone-number .number{
+        margin-left:20px;
+        font-size:15px;
+}
+.footer-element .email-section{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+
+}
+.email-section .email-icon{
+    font-size:30px;
+}
+.email-section .email-icon:hover{
+    color:orange;
+    cursor:pointer;
+}
+.email{
+    padding-left:20px;
+}
+.footer .container ul{
+    display:flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.footer .container ul li{
+color:rgb(22, 22, 22);  
+font-weight: 400;  
+}
+.sub-text{
+    font-size:15px;
+    color:grey;
+    margin-bottom:20px;
+}
+.footer-element form{
+    display:flex;
+    flex-direction: column;
+}
+form input#sub-email{
+    padding:10px 40px;
+    background-color: rgb(231, 231, 231);
+    color:black;
+    text-align: center;
+    border: none;
+    margin-bottom:15px;
+    border-radius: 5px;
+    font-size:15px;
+    font-weight: 500;
+}
+form input#sub-email::placeholder{
+    color:rgb(88, 88, 88)
+}
+form input#submit{
+    border-color:transparent;
+    background-color:rgb(177, 116, 60);
+    padding:10px 40px;
+    color:white;
+    border-radius: 5px;
+    box-shadow: 0px 10px 42px -14px rgb(177, 116, 60);
+    transition:0.5s linear;
+    font-weight:700;
+}
+form input#submit:hover{
+    box-shadow: 0px 10px 42px -6px rgb(177, 116, 60);
+    transform: translateY(-10px);
+    cursor:pointer;
+}
+@media (max-width:1100px) {
+    .footer-element{
+        text-align: center;
+    }
+}

@@ -1,0 +1,112 @@
+.choose {
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+@media (max-width:1100px) {
+    .choose img{
+        max-width: 400px;
+    }
+}
+.choose .infos{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:40px;
+}
+.choose .infos .info-left{
+    text-align: left;
+    max-width:500px;
+}
+.choose .infos .info-left h3{
+    font-size:20px;
+    margin-bottom:-30px;
+}
+.choose .infos .info-left h1{
+    font-size:40px;
+    
+}
+.choose .infos .info-left p{
+    font-size:15px;
+    color:grey;
+    margin:-20px 0 40px;
+}
+
+.details{
+    display:flex;
+    justify-content: space-between;
+    width:200px;
+    border-color:transparent;
+    font-size:20px;
+    background-color:rgb(177, 116, 60);
+    padding:15px 30px;
+    color:white;
+    border-radius: 5px;
+    box-shadow: 0px 10px 42px -14px rgb(177, 116, 60);
+        transition:0.5s linear;
+    }
+    .details:hover{
+        box-shadow: 0px 10px 42px -6px rgb(177, 116, 60);
+        transform: translateY(-10px);
+        cursor:pointer;
+    }
+@media (max-width:1100px) {
+        .choose .infos{
+            flex-direction: column;
+        }
+        .choose .infos .info-left{
+            text-align: center;
+        }
+        .details{
+            margin:0 auto 100px;
+        }
+    }
+.choose .infos .info-right {
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+.choose .infos .info-right .info{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+  
+}
+.choose .infos .info-right .info .text{
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    max-width: 500px;
+}
+.choose .infos .info-right .info img{
+    margin-right:40px;
+    width:110px;
+    height:110px;
+    padding-top:20px;
+}
+.choose .infos .info-right .info h3{
+    font-size:22px;
+    margin-bottom:-8px;
+}
+.choose .infos .info-right .info p{
+color:grey;
+font-size:15px;
+max-width: 500px;
+}
+@media (max-width:1100px) {
+    .choose .infos .info-right {
+        text-align: center;
+        gap:80px;
+    }
+    .choose .infos .info-right .info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .choose .infos .info-right .info img{
+        margin-right: 0;
+    }
+}

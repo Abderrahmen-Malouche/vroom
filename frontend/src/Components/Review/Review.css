@@ -1,0 +1,57 @@
+.reviews{
+    background-color: rgb(245, 243, 243);
+    padding:60px 0;
+}
+.reviewslist{
+    display:grid;
+    grid-template-columns: repeat(auto-fit ,minmax(300px,1fr));
+    gap:40px;
+}
+.review{
+    background-color: white;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    padding:30px 60px;
+    border-radius: 10px;
+}
+@media (max-width:1100px) {
+    .reviewslist{
+        padding:0 20px;
+    }
+}
+.review p{
+    max-width: fit-content;
+    font-size:20px;
+    font-weight: 500;
+    padding-bottom:30px;
+}
+.review .person{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.person-left{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.person .person-left img{
+    max-width:90px;
+    border-radius: 50%;
+}
+.person-left .person-info{
+    padding-left: 30px;
+    
+}
+.person-info .name{
+    font-size:20px;
+    font-weight: bold;
+}
+.person-info .location{
+    font-size:18px;
+}
+.quote{
+    font-size:40px;
+    color:rgb(190, 111, 36);
+}
