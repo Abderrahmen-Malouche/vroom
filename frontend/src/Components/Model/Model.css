@@ -1,0 +1,122 @@
+.model{
+    padding-top: 50px;
+}
+.model .container .content{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+@media (max-width:1100px) {
+    .model .container .content{
+        flex-direction: column;
+        gap:80px;
+    }
+}
+.model .models-buttons{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    width:270px;
+    gap:10px;
+}
+.models-buttons button{
+    border:none;
+    color:black;
+    text-align: left;
+    padding:20px 10px 20px 30px;
+    font-size:22px;
+    font-weight: bold;
+}
+.models-buttons button:hover{
+    background-color:rgb(190, 111, 36);
+    color:white;
+    cursor: pointer;
+}
+button.active{
+    background-color:rgb(190, 111, 36);
+    color:white;
+}
+.info-table{
+    display:flex;
+    flex-direction: column;
+    width:270px;
+}
+.info-table .info-title {
+    background-color: #be6f24; 
+    color: white;
+    font-size: 23px;
+    padding: 7px 5px;
+    border-radius: 2px;
+    text-align: center; 
+}
+
+.info-table .table-columns {
+    border-left: solid 2px #706f7b; 
+    border-right: solid 2px #706f7b; 
+
+    border-bottom: solid 2px #706f7b; 
+
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-table .row {
+    display: flex;
+    border-bottom: 2px solid #706f7b;
+    padding: 10px;
+}
+
+.info-table .row span {
+    flex: 1; 
+    padding: 0 10px; 
+    min-width: 0; 
+}
+
+.info-table .row span:first-child {
+    border-right: 2px solid #706f7b; 
+    margin-right: 10px; 
+    padding-right:30px; 
+    text-align: center; 
+}
+
+.info-table .row span:last-child {
+    text-align: center; 
+    padding-left: 20px; 
+}
+.info-table .reserve-button{
+    background-color: #be6f24; 
+    color:white;
+    margin-top:20px;
+    border:none;
+    padding:9px 6px;
+    font-size: 20px;
+    border-radius: 3px;
+    box-shadow: 1px 4px 3px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.info-table .reserve-button:hover{
+background-color: rgb(190, 111, 36);
+}
+.car-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:100px;
+}
+
+@media (max-width:1100px) {
+    .model .models-buttons{
+        grid-column-start:  0;
+        grid-column-end: 2;
+    }
+    .car-info{
+  
+        flex-direction: column;
+        
+        gap:60px;
+    }
+}

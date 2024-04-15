@@ -1,0 +1,70 @@
+.book{
+    margin:40px 0 100px;
+}
+.book .container{
+    background-color: white;
+    box-shadow: 0px 10px 53px 10px rgba(0,0,0,0.1);
+    padding:20px 0px 50px 80px;
+}
+.book .container h3{
+    font-size:30px;
+} 
+.book .container h4 span{
+    color:rgb(190, 111, 36);
+}
+.booking-information{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    row-gap: 30px;
+}
+.booking-info-header{
+    display:flex;
+    flex-direction: row;
+    
+    align-items: center;
+    gap:10px;
+}
+.booking-info-header .booking-icon{
+    font-size:28px;
+}
+.booking-info-header h4{
+    font-size:16px;
+}
+.booking-info-header h4 span{
+    color:rgb(190, 111, 36);
+}
+.booking-information select{
+    width: 334px;
+    padding:12px 15px;
+    color:rgb(80, 80, 80);
+    font-size:17px;
+    border-color:rgba(62, 152, 255, 0.616);
+}
+.booking-information input{
+    width:300px;
+    padding:12px 15px;
+    color:rgb(80, 80, 80);
+    font-size:17px;
+    border-color:rgba(62, 152, 255, 0.616);
+}
+.booking-information button{
+    width:334px;
+    color:white;
+    border-radius: 5px;
+    box-shadow: 0px 10px 42px -14px rgb(177, 116, 60);
+    transition:0.5s linear;
+    margin-top:65px;
+    padding:12px 15px ;
+    text-align: center;
+    background-color:rgb(177, 116, 60);
+    border-color:transparent;
+    font-size:20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.booking-information button:hover{
+    box-shadow: 0px 10px 42px -6px rgb(177, 116, 60);
+    transform: translateY(-10px);
+    cursor:pointer;
+}
