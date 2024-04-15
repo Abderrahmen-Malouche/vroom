@@ -2,7 +2,7 @@ import React from 'react'
 import "./Download.css"
 import appstore from "../../Assets/appstore.png"
 import playstore from "../../Assets/playstore.png"
-import downloadbackground from "../../Assets/download-background.png"
+
 
 const Download = () => {
   return (
