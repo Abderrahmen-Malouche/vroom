@@ -1,0 +1,116 @@
+.contact_info{
+    margin-bottom:150px;
+    margin-top:150px;
+    background-image: url(https://car-rental-ten.vercel.app/static/media/bg-contact.c178c6db0f988d408d94.png);
+    background-size:contain;
+  background-color: transparent;
+}
+.contact_info .container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+   
+}
+.contact_info_additional{
+    width:600px;
+}
+.contact_info_additional >h1{
+ font-size:45px;
+ width:400px;
+}
+.contact_info_additional >p{
+    width:500px;
+    font-size:18px;
+}
+.phone-number{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+
+}
+.phone-number:hover{
+    color:orange;
+    cursor:pointer;
+}
+.phone-number .phone{
+    font-size:30px;
+}
+
+.phone-number .number{
+        margin-left:20px;
+        font-size:15px;
+}
+.email-section{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+
+}
+.email-section:hover{
+    color:orange;
+    cursor:pointer;
+
+}
+.email-section .email-icon{
+    font-size:30px;
+}
+
+.location{
+    padding-left:20px;
+}
+.location-section{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+
+}
+.location-section:hover{
+    color:orange;
+    cursor:pointer;
+
+}
+.location-section .location-icon{
+    font-size:20px;
+}
+
+.location{
+    padding-left:20px;
+}
+.inputs .label{
+    font-size:15px;
+}
+.inputs .label span{
+color:rgb(235, 7, 7);
+}
+.inputs input , .inputs textarea{
+width:400px;
+padding:10px 0px 10px 20px;
+}
+.inputs .info{
+    height:30px;
+}
+
+.inputs #submit{
+    display:block;
+    margin-top:20px;
+    width:421px
+} 
+@media (max-width:1100px) {
+    .contact_info .container {
+    text-align: center;
+    }
+    .contact_info_additional >h1, .contact_info_additional >p{
+        width:auto;
+   }
+       
+}
+@media (max-width:399px) {
+    .inputs input , .inputs textarea,.inputs #submit{
+        width:auto;
+        }
+}

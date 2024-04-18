@@ -1,9 +1,11 @@
 import React from 'react'
 import Banner from '../../Components/Banner/Banner'
+import ContactInfo from '../../Components/ContactInfo/ContactInfo'
 const Contact = () => {
   return (
-    <div>Contact
-                <Banner/>
+    <div> 
+      <ContactInfo/>
+      <Banner/>
 
     </div>
   )

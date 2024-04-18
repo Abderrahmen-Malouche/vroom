@@ -1,0 +1,88 @@
+.car {
+    width:400px;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.car .car_image img{
+    width:400px;
+    height:300px;
+}
+.car-details{
+    padding:10px 50px;
+}
+.car_details_first{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:0;
+}
+.car_details_first_left{
+display:flex;
+flex-direction: column;
+justify-content: left;
+align-items: left;
+}
+.car_details_first_right{
+    display:flex;
+    flex-direction: column;
+    align-items: right;
+}
+.car_details_first_left h4:nth-of-type(1),.car_details_first_right h4:nth-of-type(1){
+    font-size:25px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.car_details_first_left h4:nth-of-type(2){
+    font-size:20px;
+    margin-top: 5px;
+    font-weight:500 ;
+}
+.car_details_first_right h2{
+    font-size:20px;
+    margin-top: 5px;
+    font-weight:500 ;
+}
+.car_details_second{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+}
+.car_details_second_component{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.car_details_second_component h2{
+    font-size:19px;
+    color:grey;
+    font-weight: 500;
+}
+.car_details_second_component h2 .car_icon{
+padding-left:5px;    
+padding-right:5px;  
+}
+.car_details_third{
+    margin-top:20px;
+    margin-bottom:20px;
+    border-top:2px solid rgb(224, 224, 224);
+    padding-top:20px;
+}
+.car_details_third button{
+    background-color: #be6f24; 
+    color:white;
+    
+    border:none;
+    padding:16px 6px;
+    font-size: 20px;
+    border-radius: 3px;
+    width:300px;
+    cursor: pointer;
+}
+.car_details_third button:hover{
+    box-shadow: 0px 10px 42px -6px rgb(177, 116, 60);
+    cursor:pointer;
+}

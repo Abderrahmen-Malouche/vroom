@@ -1,0 +1,13 @@
+.staff .container {
+    display:flex;
+    column-gap:120px;
+    row-gap: 40px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.staff{
+    margin-bottom:150px;
+    margin-top:150px;
+}

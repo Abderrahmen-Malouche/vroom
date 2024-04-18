@@ -1,0 +1,64 @@
+.about_info{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.about_info .container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.about .container .about_company{
+    width:500px;
+}
+.about .container .about_company h3{
+font-size: 20px;    
+font-weight: 500;
+margin-bottom:0;
+}
+.about_company>h1{
+    font-size: 40px;
+    margin-top:0;
+}
+.about_company>p{
+    width:auto;
+font-size:15px;
+color:grey;
+line-height: 2;
+margin-bottom:30px;
+}
+.about_company .counting{
+    display:flex;
+    flex-direction: row;
+    gap:50px;
+    align-items: center;
+
+}
+.counting .counting_element{
+   
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+.counting_element .text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.counting_element .text >h1{
+    margin:0;
+    font-size: 37px;
+}
+.counting_element  h3{
+       margin-left: 3px;;
+        font-size: 10px; 
+        color: grey; 
+        font-weight:500;    
+
+        writing-mode: vertical-lr;
+}

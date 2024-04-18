@@ -25,13 +25,14 @@ font-size:18px;
     justify-content: left;
 
 }
-.phone-number .phone{
-    font-size:30px;
-}
-.phone-number .phone:hover{
+.footer-element .phone-number:hover{
     color:orange;
     cursor:pointer;
 }
+.phone-number .phone{
+    font-size:30px;
+}
+
 .phone-number .number{
         margin-left:20px;
         font-size:15px;
@@ -43,13 +44,15 @@ font-size:18px;
     justify-content: left;
 
 }
+.footer-element .email-section:hover{
+    color:orange;
+    cursor:pointer;
+
+}
 .email-section .email-icon{
     font-size:30px;
 }
-.email-section .email-icon:hover{
-    color:orange;
-    cursor:pointer;
-}
+
 .email{
     padding-left:20px;
 }
@@ -61,6 +64,9 @@ font-size:18px;
 .footer .container ul li{
 color:rgb(22, 22, 22);  
 font-weight: 400;  
+}
+.footer .container ul li:hover{
+    color:orange;
 }
 .sub-text{
     font-size:15px;
